@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking external css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking favicon -->
+   <link rel="shortcut icon" href="http://static1.squarespace.com/static/5c101a4e7c9327fdf174b93b/t/5cf6c23d24d55c0001de1da7/1559675455754/?format=1500w" type="image/x-icon">
+    <!-- Linking bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Array Average</title>
+</head>
+<body>
+    
+    <div class="container" id="maindiv">
+        <h4 id="heading" class="text-center">Divide an array into 2 parts <br>check whether that the averages are same</h4>
+        <form action="none" onsubmit="return false" id="myform" >
+            <div class="form-group mt-6 col-4">
+                <label for="length">Length</label>
+                <input type="text" class="form-control" id="length">
+                <small id="guide" class="form-text text-muted">Enter the length of the array</small>
+            </div>
+
+            <div class="form-group col-4">
+                <label for="array">Array :</label>
+                <input type="text" class="form-control" id="array">
+                <small id="guide" class="form-text text-muted">Enter the array elements</small>
+            </div>
+            <button type="submit" onsubmit="fun()"  class="btn btn-primary submit">Submit</button>
+            <button class="btn btn-primary reset">Reset</button>
+        </form>
+
+        <div class="container m-5"id="output"></div>
+        
+    </div>
+
+    <!-- Linking external script file -->
+    <script src="script.js"></script>
+    <!-- Linking bootstrap js file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

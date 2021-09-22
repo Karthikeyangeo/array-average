@@ -1,0 +1,15 @@
+#maindiv{
+    margin-top:5vh;
+}
+form{
+    margin-top: 15vh;
+    margin-left:25%; 
+}
+
+#output{
+    padding-left:25%;
+    
+}
+.submit,.reset{
+    margin-left: 25px;
+}
